@@ -145,7 +145,7 @@ h4 {
 
 .null img {
     width: auto;
-    height: 1050px;
+    height: 900px;
 }
 
 .info {
@@ -441,4 +441,5 @@ button {
     button {
         width: 125px;
     }
+
 }
