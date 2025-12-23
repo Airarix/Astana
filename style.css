@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Duru+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Anonymous Pro", monospace;
+}
+
+:root {
+    --text-color: red;
+    --text-color1: white;
+    --text-color2: #3a86ff;
+}
+
+body {
+    background:
+        radial-gradient(circle at 15% 50%, rgba(154, 154, 154, 0.25) 0%, transparent 32%),
+        radial-gradient(circle at 85% 30%, rgba(154, 154, 154, 0.20) 0%, transparent 32%),
+        #242424;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 6rem;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logoimg {
+    width: 55%;
+    height: auto;
+}
+
+.arrowimg {
+    transform: rotate(180deg);
+    width: 15%;
+    height: auto;
+    object-fit: contain;
+}
+
+.arrowimg:hover {
+    animation: arrowAnim 2s infinite;
+}
+
+@keyframes arrowAnim {
+    0% {
+        width: 15%;
+    }
+    50% {
+        width: 20%;
+    }
+    100% {
+        width: 15%;
+    }
+}
+
+.history {
+    background: linear-gradient(-135deg, #242424, #9E9E9E);
+    border-bottom: #242424 solid 2px;
+    border-top: #242424 solid 2px;
+}
+
+h2 {
+    color: var(--text-color1);
+    font-size: 6rem;
+    font-weight: lighter;
+    padding-top: 4%;
+    text-align: center;
+}
+
+h2::first-letter {
+    font-size: 7rem;
+    text-shadow: white 5px 5px 5px;
+    color: #3a86ff;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.containerhistory {
+    padding: 3% 2% 3% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.historyp {
+    text-align: right;
+    width: 70%;
+    height: auto;
+    font-size: 3rem;
+    color: white;
+    line-height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 2% 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.null {
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.null img {
+    width: auto;
+    height: 1050px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 3% 0 5% 0;
+}
+
+.geography {
+    padding: 0 2% 0 2%;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    font-size: 1.875rem;
+    color: white;
+    line-height: 65px;
+    margin-left: 6%;
+}
+
+li {
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #3a86ff;
+}
+
+.block1 {
+    background-image: url(images/Bayterek2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 65px;
+    border: #242424 solid 2px;
+    transition: all 0.3s ease;
+    width: 400px;
+    height: 440px;
+}
+
+.block2 {
+    background-image: url(images/citry3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 65px;
+    border: #242424 solid 2px;
+    transition: all 0.3s ease;
+    width: 400px;
+    height: 440px;
+}
+
+.block3 {
+    background-image: url(images/View.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 65px;
+    border: #242424 solid 2px;
+    transition: all 0.3s ease;
+    width: 400px;
+    height: 440px;
+}
+
+.block1:hover {
+    transform: translateY(-10px);
+    border-color: rgba(58, 134, 255, 0.3);
+}
+
+.block2:hover {
+    transform: translateY(-10px);
+    border-color: rgba(58, 134, 255, 0.3);
+}
+
+.block3:hover {
+    transform: translateY(-10px);
+    border-color: rgba(58, 134, 255, 0.3);
+}
+
+.titleGeography {
+    text-align: left;
+    margin-left: 3%;
+}
+
+.geographyp {
+    text-align: left;
+    padding: 4%;
+    font-size: 3rem;
+    color: white;
+    line-height: 45px;
+}
+
+.arrow_slider {
+    width: 300px;
+    height: auto;
+}
+
+.image {
+    border-radius: 65px;
+    border: #242424 solid 2px;
+    height: 340px;
+    width: auto;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.image:hover {
+    border-color: rgba(17, 108, 255, 0.3);
+}
+
+.carousel {
+    margin: 2% 2% 5% 2%;
+}
+
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+
+.feedback {
+    background: linear-gradient(-135deg, #242424, #9E9E9E);
+    padding-bottom: 5%;
+    border-bottom: #242424 solid 2px;
+    border-top: #242424 solid 2px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 2% 20%;
+    background-color: rgba(0, 0, 0, 0.481);
+    padding: 2% 0;
+    border-radius: 50px;
+    border: white 3px solid;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    resize: none;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 3% 0 3% 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.copyright {
+    font-size: .9rem;
+    color: white;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #3a86ff;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    ul {
+        font-size: 1.5625rem;
+    }
+
+    .titleGeography {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .geographyp {
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .null {
+        display: none;
+    }
+
+    .containerhistory {
+        align-items: center;
+    }
+
+    .historyp {
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .titleGeography {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .geographyp {
+        font-size: 25px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info div {
+        width: 350px;
+    }
+
+    ul {
+        font-size: 25px;
+    }
+
+    .carousel {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }   
+
+    form {
+        gap: 25px;
+        margin: 2% 10%;
+        padding: 5% 0;
+    }
+
+    input {
+        width: 225px;
+    }
+
+    textarea {
+        width: 225px;
+    }
+
+    button {
+        width: 125px;
+    }
+}
