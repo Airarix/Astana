@@ -12,6 +12,10 @@
     --text-color2: #3a86ff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background:
         radial-gradient(circle at 15% 50%, rgba(154, 154, 154, 0.25) 0%, transparent 32%),
@@ -517,4 +521,5 @@ button {
         width: 125px;
     }
 } 
+
 */
