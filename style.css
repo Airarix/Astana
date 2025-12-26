@@ -369,7 +369,7 @@ button {
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 991px) {
     h1 {
         font-size: 60px;
     }
@@ -441,5 +441,80 @@ button {
     button {
         width: 125px;
     }
-
 }
+
+/*
+ @media (max-width: 460px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .null {
+        display: none;
+    }
+
+    .containerhistory {
+        align-items: center;
+    }
+
+    .historyp {
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .titleGeography {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .geographyp {
+        font-size: 25px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info div {
+        width: 350px;
+    }
+
+    ul {
+        font-size: 25px;
+    }
+
+    .carousel {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }   
+
+    form {
+        gap: 25px;
+        margin: 2% 10%;
+        padding: 5% 0;
+    }
+
+    input {
+        width: 225px;
+    }
+
+    textarea {
+        width: 225px;
+    }
+
+    button {
+        width: 125px;
+    }
+} 
+*/

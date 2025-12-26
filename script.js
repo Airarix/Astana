@@ -8,12 +8,21 @@ $('.carousel').slick({
   autoplaySpeed: 2000,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 1199,
       settings: {
         arrows: false,
         centerMode: true,
         centerPadding: '35px',
         slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '35px',
+        slidesToShow: 2
       }
     },
     {
@@ -24,6 +33,6 @@ $('.carousel').slick({
         centerPadding: '35px',
         slidesToShow: 1
       }
-    }
+    },
   ]
 });
